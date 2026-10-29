@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coba CSS - Selector & Property</title>
-</head>
-<body>
-    <h1 id="judul" class="p2">Hello World</h1>
-    <P id="garis-bawah">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora sequi quae minima nulla. Labore eligendi quibusdam porro quae nisi! Neque dolore dolor nesciunt adipisci odit pariatur earum harum dolorem.</P>
-    <p id="garis-miring">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, voluptatibus distinctio labore obcaecati mollitia sint dolores numquam iure et?</p>
-</body>
-</html>
-            font-size: 100px;
+    <style>
+
+        h1 {
+            font-size: 120px;
+            font-family: arial;
+            color: lightblue;
+            text-align: center;
         }
 
         p {
@@ -35,10 +34,16 @@
         #garis-miring {
             font-style: italic;
         }
-</style>
+
+        .cetak-miring {
+            font-style: italic;
+        }
+    </style>
+</head>
 <body>
-    <h1 id="judul" class="p2">Hello World</h1>
-    <P id="garis-bawah">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora sequi quae minima nulla. Labore eligendi quibusdam porro quae nisi! Neque dolore dolor nesciunt adipisci odit pariatur earum harum dolorem.</P>
-    <p id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, voluptatibus distinctio labore obcaecati mollitia sint dolores numquam iure et?</p>
+    <h1 id="judul" class="p2 cetak-miring">Hello World</h1>
+    <p id="garis-bawah" class="cetak-miring">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ab ipsam vero minima voluptatibus animi natus quas voluptas corporis, nobis dolorem neque optio! In repudiandae itaque autem modi dignissimos officiis!</p>
+    <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, ipsum nemo! Eum vel corrupti blanditiis dolore beatae modi quaerat quis.</p>
 </body>
+</html>
 </html>
